@@ -29,8 +29,8 @@ git clone https://github.com/your-username/IMDB-Sentiment-Analysis.git
 cd IMDB-Sentiment-Analysis
 pip install -r requirements.txt
 
-# Usage
-Data Preprocessing and Model Training
+
+# Data Preprocessing and Model Training
 Run the following script to preprocess the data and train the model:
 
 import numpy as np
