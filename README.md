@@ -87,7 +87,8 @@ history = model.fit(x_train, y_train, epochs=20, batch_size=32, validation_split
 
 # Save the model
 model.save('simple_rnn_imdb.h5')
-
+```
+```bash
 ## Prediction
 Load the saved model and predict the sentiment of new reviews:
 
@@ -129,8 +130,8 @@ sentiment, score = predict_sentiment(example_review)
 print(f'Review: {example_review}')
 print(f'Sentiment: {sentiment}')
 print(f'Prediction: {score}')
-
-##Contributing
+```
+## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request. We welcome all contributions!
 
 # Acknowledgements
