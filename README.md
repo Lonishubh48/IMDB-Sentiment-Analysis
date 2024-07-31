@@ -1,30 +1,31 @@
 # IMDB-Sentiment-Analysis
-The main goal is to estimate the sentiment of movie reviews from the Internet Movie Database (IMDb) using simple RNN model.
 
-##What is Sentiment Analysis?
-Sentiment analysis is a technique for analysing a piece of text to determine the sentiment contained within it. It accomplishes this by combining machine learning and natural language processing (NLP).
+The main goal is to estimate the sentiment of movie reviews from the Internet Movie Database (IMDb) using a simple RNN model.
 
-# Example
-You can use sentiment analysis to analyse consumer comments, for example you can run sentiment analysis algorithms on such text snippets after collecting input through various mediums such as Twitter and Facebook to assess your customers’ attitudes toward your product.
+## What is Sentiment Analysis?
 
-So Movie Review Analysis is type of customer feedback analysis here, we’ll walk through the steps of creating a model that can perform sentiment analysis on a big movie database. The information was gathered from the Internet Movie Database (IMDb).
+Sentiment analysis is a technique for analyzing a piece of text to determine the sentiment contained within it. It combines machine learning and natural language processing (NLP).
 
-# Project Structure
-data/: Contains the dataset used for training and testing the model.
+## Example
 
-models/: Contains the saved models.
+You can use sentiment analysis to analyze consumer comments. For example, you can run sentiment analysis algorithms on text snippets collected through various mediums such as Twitter and Facebook to assess your customers’ attitudes toward your product.
 
-notebooks/: Contains Jupyter notebooks with exploratory data analysis, model training, and evaluation.
+In this project, movie review analysis is a type of customer feedback analysis. Here, we’ll walk through the steps of creating a model that can perform sentiment analysis on a large movie database. The information was gathered from the Internet Movie Database (IMDb).
 
-scripts/: Contains Python scripts for preprocessing data, training models, and evaluating models.
+## Project Structure
 
-results/: Contains the results of the sentiment analysis, including plots and metrics.
+- `data/`: Contains the dataset used for training and testing the model.
+- `models/`: Contains the saved models.
+- `notebooks/`: Contains Jupyter notebooks with exploratory data analysis, model training, and evaluation.
+- `scripts/`: Contains Python scripts for preprocessing data, training models, and evaluating models.
+- `results/`: Contains the results of the sentiment analysis, including plots and metrics.
+- `README.md`: This file, which provides an overview of the project.
 
-README.md: This file, which provides an overview of the project.
+## Installation
 
-# Installation
 To get started with this project, clone the repository and install the necessary dependencies:
 
+```bash
 git clone https://github.com/your-username/IMDB-Sentiment-Analysis.git
 cd IMDB-Sentiment-Analysis
 pip install -r requirements.txt
@@ -87,7 +88,6 @@ history = model.fit(x_train, y_train, epochs=20, batch_size=32, validation_split
 # Save the model
 model.save('simple_rnn_imdb.h5')
 
-
 ## Prediction
 Load the saved model and predict the sentiment of new reviews:
 
@@ -130,12 +130,10 @@ print(f'Review: {example_review}')
 print(f'Sentiment: {sentiment}')
 print(f'Prediction: {score}')
 
-
-Results
-Include a brief summary of your results here. You can add plots, metrics, or example outputs to give an idea of the model's performance.
-Contributing
-
+##Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request. We welcome all contributions!
 
 # Acknowledgements
 IMDb for providing the data.
+
+
