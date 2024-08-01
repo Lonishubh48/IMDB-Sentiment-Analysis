@@ -26,7 +26,7 @@ In this project, movie review analysis is a type of customer feedback analysis. 
 To get started with this project, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/your-username/IMDB-Sentiment-Analysis.git
+git clone https://github.com/Lonishubh48/IMDB-Sentiment-Analysis.git
 cd IMDB-Sentiment-Analysis
 pip install -r requirements.txt
 
